@@ -1,0 +1,78 @@
+/*=============== GOOGLE FONTS [POPPINS] ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+  }
+/*=============== GOOGLE FONTS [POPPINS] ===============*/
+
+
+
+/*=============== HEADER ===============*/
+  .header {
+    min-height: 100vh;
+    width: 0 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.904), rgba(0, 0, 2, 0.774)),
+      url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+/*=============== HEADER ===============*/
+
+
+/*=============== HERO BTN ===============*/
+.hero-btn2 {
+    display: inline-block;
+    text-decoration: none;
+    color: #0083c0;
+    border: 1px solid #0083c0;
+    border-radius: 50px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .hero-btn2::before,
+  .hero-btn2::after {
+    content: "";
+    position: absolute;
+    height: 1px; /* Adjust the height of the lines */
+    background-color: #0083c0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; /* Adjust the width of the lines as needed */
+  }
+  
+  .hero-btn2::before {
+    left: -25px; /* Adjust the distance of the left line from the button */
+  }
+  
+  .hero-btn2::after {
+    right: -25px; /* Adjust the distance of the right line from the button */
+  }
+  
+  .hero-btn2:hover {
+    border: 1px solid #fff;
+    background: #0083c0;
+    color: #ffffff;
+    transition: 0.4s;
+  }
+/*=============== HERO BTN ===============*/
+
+
+/*=============== MOBILE x TABLET ===============*/
+@media screen and (min-width: 1024px) {
+    body{
+        color: black;
+    }
+  }
+
+  @media (max-width: 700px) {
+    body{
+        color: black;
+    }
+    }
+/*=============== MOBILE x TABLET ===============*/
