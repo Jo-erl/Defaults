@@ -389,6 +389,9 @@ h3 {
   left: 0; 
   right: 0; 
 }
+.footer2 p{
+  color: #aaaaaa;
+}
 
 
 
@@ -397,7 +400,7 @@ h3 {
   width: 100%;
   text-align: center;
   padding: 30px 0;
-  background-color: #000000;
+  background-color: #111111;
 }
 
 .footer h4 {
